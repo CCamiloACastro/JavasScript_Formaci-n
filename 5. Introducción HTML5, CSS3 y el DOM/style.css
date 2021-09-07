@@ -1,0 +1,14 @@
+*{
+    margin: 50;
+    padding: 200;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    color: brown;
+}
+.imagen{
+    border: 5px;
+    border-color: aqua;
+    border-style: inset;
+}
