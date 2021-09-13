@@ -16,5 +16,13 @@ function divide(x1, x2){
     }
 }
 // exports.COMOSEVAALLAMARDESDEEOTROARCHIVO = FUNCION EN ESTE ARCHIVO
+// exporta una propiedad de un objeto
 exports.add = add;
 exports.sub = substract;
+/* tambien se puede de la siguiente manera
+* linea 1 -> const math = {};
+* en vez de exports uso math.add = add
+* module.exports = math;
+*/
+// El module.exports permite exportar objetos, variable funciones, dato de javascript 
+// tambien puedo exportar una funcion module.exports = FUNCTION;

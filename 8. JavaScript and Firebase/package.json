@@ -1,0 +1,23 @@
+{
+  "name": "javascript-and-firebase",
+  "version": "0.1.0",
+  "description": "Un hola mundo sencillo para conectar firebase con javascript",
+  "main": "main.js",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "firebase": "^9.0.2",
+    "firebase-admin": "^9.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main2.js"
+  },
+  "keywords": [
+    "javascript",
+    "firebase",
+    "firestore",
+    "auth"
+  ],
+  "author": "CCamiloACastro",
+  "license": "ISC"
+}
