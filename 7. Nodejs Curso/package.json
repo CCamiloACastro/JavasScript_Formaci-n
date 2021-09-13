@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-curso",
+  "version": "0.0.1",
+  "description": "Un proyecto sencillo para aprender las bases de nodejs como servidor",
+  "main": "indexNPM.js",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node indexNPM.js",
+    "index": "node index.js"
+  },
+  "keywords": [
+    "curso",
+    "español",
+    "node",
+    "color"
+  ],
+  "author": "CCamiloACastro",
+  "license": "ISC"
+}
