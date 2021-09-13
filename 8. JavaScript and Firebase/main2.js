@@ -2,7 +2,7 @@ const admin = require('firebase-admin');
 
 //const serviceAccount = require('./path/to/serviceAccountKey.json');
 //const serviceAccount = require('D:/Documentos/1. Programas y Proyectos/JavaScript/8. JavaScript and Firebase/servicio-domicilio-ea1e8-4503d96feb04.json');
-const serviceAccount = require('C:/Users/cekal/Downloads');
+const serviceAccount = require('C:/Users/cekal/Downloads/servicio-domicilio-ea1e8-4503d96feb04.json');
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
