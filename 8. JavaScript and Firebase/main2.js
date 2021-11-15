@@ -18,11 +18,11 @@ docRef.set({
     born: 2021
 });
 // Manera 2 de agregar datos 
-db.collection('users').doc('aturing').set({
-    'first': 'Alan',
-    'middle': 'Mathison',
-    'last': 'Turing',
-    'born': 1912
+db.collection('users').doc('Sprint nn').set({
+    'first': 'Estamos atrasados',
+    // 'middle': 'Mathison',
+    'last': 'toco transnochar',
+    'born': 2021
 });
 
 console.log('mensaje despues de agregar datos');
